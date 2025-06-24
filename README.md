@@ -48,3 +48,25 @@ git pull origin main
 git fetch origin
 git merge origin/main
 ```
+
+## 分支
+
+> 查看当前所有分支，当前分支会带`*`
+```bash
+git branch
+```
+
+### 创建分支
+```bash
+git branch 新分支名
+```
+
+### 创建分支
+```bash
+git checkout 分支名
+```
+
+### 创建并切换分支
+```bash
+git checkout 新分支名
+```
