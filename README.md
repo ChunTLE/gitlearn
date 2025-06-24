@@ -70,3 +70,8 @@ git checkout 分支名
 ```bash
 git checkout 新分支名
 ```
+
+### 推送新分支
+```bash
+git push -u origin 新分支名
+```
