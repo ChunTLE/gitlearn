@@ -6,6 +6,7 @@ git init
 ```
 
 ## 暂存
+> `.`表示所有修改的文件
 ```bash
 git add .
 ```
@@ -16,6 +17,7 @@ git commit -m "注释"
 ```
 
 ## 推送
+> 把本地仓库的 main 分支的更改，推送到远程仓库 origin 的 main 分支上。
 ```bash
 git push origin main
 ```
