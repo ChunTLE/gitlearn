@@ -75,3 +75,35 @@ git checkout 新分支名
 ```bash
 git push -u origin 新分支名
 ```
+
+## Merge
+> 加入要把`feature`分支内容合并到`main`分支中
+
+### 切换到`main`分支
+```bash
+git checkout main
+```
+
+### 拉取远程最新代码
+> 建议先同步远程
+```bash
+git pull origin main
+```
+
+### 合并`feature`到`main`
+```bash
+git merge feature
+```
+
+### 解决冲突
+> 打开有冲突的文件，Git 会标记冲突部分，按需编辑
+> 编辑完成后，执行：
+```bash
+git add 冲突文件
+git commit
+```
+
+### 推送合并后的`main`分支到远程
+```bash
+git push origin main
+```
