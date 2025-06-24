@@ -21,3 +21,30 @@ git commit -m "注释"
 ```bash
 git push origin main
 ```
+
+## Fetch
+> 从远程仓库抓取最新信息
+```bash
+git fetch origin
+```
+
+### 查看远程 main 分支的提交情况
+```bash
+git log origin/main --oneline
+```
+
+### 把远程 main 合并进当前分支
+```bash
+git merge origin/main
+```
+
+## 更新代码
+以下等价
+```bash
+git pull origin main
+```
+
+```bash
+git fetch origin
+git merge origin/main
+```
